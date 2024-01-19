@@ -1,0 +1,9 @@
+#kvTable {
+    border: solid black 1px;
+    border-collapse: collapse;
+}
+
+#truthTable, #truthTable > tbody > tr > td, #truthTable > tbody > tr > th,  #truthTable > tbody > tr {
+    border: solid black 1px;
+    border-collapse: collapse;
+}

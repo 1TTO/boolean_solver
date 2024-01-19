@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Boolean Solver</title>
+    <link rel="stylesheet" href="./styles/kv.css">
+</head>
+<body>
+Expression: <br>
+<input type="text" id="expression">
+<br>
+Custom truth-table variables order: <br>
+<input type="text" id="customVarSeq">
+<br>
+Custom vertical KV variables order: <br>
+<input type="text" id="verticalVars">
+<br>
+Custom horizontal KV variables order: <br>
+<input type="text" id="horizontalVars">
+<br>
+Truth-table only true: <br>
+<input type="checkbox" id="onlyTrue">
+<br>
+Truth-table only false: <br>
+<input type="checkbox" id="onlyFalse">
+<br>
+<input type="submit" id="submit" onclick="run()">
+<table id="kvTable">
+    <tbody id="kvBody">
+    </tbody>
+</table>
+
+<br>
+<br>
+
+<table id="truthTable">
+    <tbody id="truthTableBody">
+    </tbody>
+</table>
+
+</body>
+<script type="text/javascript" src="scripts/shared.js"></script>
+<script type="text/javascript" src="scripts/kv.js"></script>
+<script type="text/javascript" src="scripts/truthTable.js"></script>
+</html>
